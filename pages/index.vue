@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col items-center justify-center gap-10 md:gap-12 xl:gap-16 h-screen text-center">
-        <Swiper :slides-per-view="1" :loop="true" :autoplay="false" class="w-full">
+        <Swiper :slides-per-view="1" :loop="true" :autoplay="false" :modules="[SwiperPagination]" :pagination="true" class="w-full !flex flex-col items-center gap-4">
             <SwiperSlide class="!flex flex-col gap-16 md:gap-20 xl:gap-24 w-full items-center">
                 <img src="/images/startSlider/time.png" alt="" class="w-24 md:w-28 xl:w-32">          
                 <div class="flex flex-col gap-4 items-center w-full md:w-1/2">
@@ -37,3 +37,12 @@
         description: '',
     })
 </script>
+
+<style>
+    .swiper-pagination {
+        position: static;
+    }
+    .swiper-pagination-bullet-active {
+        background: #7636df;
+    }
+</style>
