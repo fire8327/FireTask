@@ -22,6 +22,9 @@
                 <p>Нет аккаунта?</p>
                 <NuxtLink to="/reg" class="text-[#7636df] transition-colors duration-300 hover:text-[#7636df]/70">Регистрация</NuxtLink>
             </div>
+            <NuxtLink to="/" class="absolute top-12 left-0 text-4xl md:text-5xl xl:text-6xl">
+                <Icon name="ion:ios-arrow-round-back"/>
+            </NuxtLink>
         </div>
     </div>
 </template>
