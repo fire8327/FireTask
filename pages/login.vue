@@ -28,7 +28,7 @@
 
 <script setup>
     useServerSeoMeta({
-        title: 'Страница регистрации',
+        title: 'Страница входа',
         keywords: '',
         description: '',
     })
