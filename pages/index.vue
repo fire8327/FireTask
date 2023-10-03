@@ -24,8 +24,8 @@
             </SwiperSlide>
         </Swiper>
         <div class="flex max-xl:flex-col gap-4 items-center justify-center w-full md:w-1/2">
-            <NuxtLink to="/" class="w-full xl:w-1/2 rounded-xl py-2 bg-[#7636df] transition-colors duration-300 hover:bg-[#7636df]/70">Вход</NuxtLink>
-            <NuxtLink to="/" class="w-full xl:w-1/2 rounded-xl py-2 bg-[#363942] transition-colors duration-300 hover:bg-[#363942]/70">Регистрация</NuxtLink>
+            <NuxtLink to="/login" class="w-full xl:w-1/2 rounded-xl py-2 bg-[#7636df] transition-colors duration-300 hover:bg-[#7636df]/70">Вход</NuxtLink>
+            <NuxtLink to="/reg" class="w-full xl:w-1/2 rounded-xl py-2 bg-[#363942] transition-colors duration-300 hover:bg-[#363942]/70">Регистрация</NuxtLink>
         </div>
     </div>
 </template>
