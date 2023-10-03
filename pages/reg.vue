@@ -5,15 +5,15 @@
             <form class="flex flex-col gap-4 xl:gap-6 w-full" autocomplete="off">
                 <div class="w-full relative">
                     <input type="text" class="w-full px-8 py-2 rounded-lg bg-[#363942] focus:outline-none" placeholder="Ник в тг">
-                    <Icon name="ic:baseline-telegram" class="absolute left-2 top-1/2 -translate-y-1/2 text-xl"/>
+                    <Icon name="ic:baseline-telegram" class="absolute left-2 top-1/2 -translate-y-1/2 text-xl text-white/50"/>
                 </div>
                 <div class="w-full relative">
                     <input type="text" class="w-full px-8 py-2 rounded-lg bg-[#363942] focus:outline-none" placeholder="Логин">
-                    <Icon name="material-symbols:person" class="absolute left-2 top-1/2 -translate-y-1/2 text-xl"/>
+                    <Icon name="material-symbols:person" class="absolute left-2 top-1/2 -translate-y-1/2 text-xl text-white/50"/>
                 </div>
                 <div class="w-full relative">
                     <input type="password" class="w-full px-8 py-2 rounded-lg bg-[#363942] focus:outline-none" placeholder="Пароль">
-                    <Icon name="material-symbols:password" class="absolute left-2 top-1/2 -translate-y-1/2 text-xl"/>
+                    <Icon name="material-symbols:password" class="absolute left-2 top-1/2 -translate-y-1/2 text-xl text-white/50"/>
                 </div>
                 <button class="w-full rounded-xl py-2 bg-[#7636df] transition-colors duration-300 hover:bg-[#7636df]/70 text-center">Регистрация</button>
             </form>
